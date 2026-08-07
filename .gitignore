@@ -1,0 +1,34 @@
+# Unreal Engine generated directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE and local tooling
+.vs/
+.vscode/
+.idea/
+.agents/
+.codex/
+Backup/
+__pycache__/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+UpgradeLog.htm
+
+# Local caches and rendered output
+cesium-request-cache.sqlite
+*.mp4
+*.avi
+*.mov
+
+# Per-user Unreal content
+Content/cache/
+Content/CesiumSettings/
+Content/Collections/
+Content/Developers/
