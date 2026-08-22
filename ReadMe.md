@@ -6,11 +6,7 @@
 
 ## 演示画面
 
-![5v5 ACMI 空战回放全局态势](Docs/Images/air-combat-overview.webp)
-
-| 多机交汇与动态俯视镜头 | 规则策略对抗中段态势 |
-| --- | --- |
-| ![多机交汇与动态俯视镜头](Docs/Images/air-combat-engagement.webp) | ![规则策略对抗中段态势](Docs/Images/rule-based-counter.webp) |
+![AirCombatReplay 5v5 全局态势](Docs/Images/air-combat-overview.webp)
 
 ## 平台状态
 
