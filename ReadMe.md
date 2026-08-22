@@ -4,6 +4,14 @@
 
 项目读取 Tacview ACMI 或 UE DataTable/CSV 轨迹，在真实地理环境中回放无人机、有人机和导弹运动，并可直接输出完整回合视频。
 
+## 演示画面
+
+![5v5 ACMI 空战回放全局态势](Docs/Images/air-combat-overview.webp)
+
+| 多机交汇与动态俯视镜头 | 规则策略对抗中段态势 |
+| --- | --- |
+| ![多机交汇与动态俯视镜头](Docs/Images/air-combat-engagement.webp) | ![规则策略对抗中段态势](Docs/Images/rule-based-counter.webp) |
+
 ## 平台状态
 
 | 能力 | Windows 10/11 | Linux |
@@ -41,7 +49,7 @@ AirCombatSim/
 ├─ LICENSE                        # 自主代码与文档的 Apache-2.0 许可证
 ├─ acmi_to_npy.py                 # ACMI -> UE CSV，名称为历史兼容保留
 ├─ Config/                        # 地图、渲染和输入配置
-├─ Content/                       # 地图、蓝图和 DataTable；第三方模型需另行安装
+├─ Content/                       # 地图、蓝图、模型和 DataTable 资产
 ├─ Source/AirCombatSim/           # 回放、HUD、镜头、捕获与编码逻辑
 ├─ Tools/RenderAcmi.ps1           # Windows：ACMI 一键生成 MP4
 ├─ Tools/RenderRound.ps1          # Windows：导出已导入或指定 CSV 回合
@@ -405,13 +413,4 @@ FrameID,Time,Explosion,Lon,Lat,Alt,Roll,Pitch,Yaw
 
 ## LICENSE
 
-本项目自主编写的 C++、Python、PowerShell 代码及项目文档采用 [Apache License 2.0](LICENSE)。该许可证允许使用、修改、分发和商业使用，并包含明确的专利授权条款。
-
-Apache-2.0 不适用于以下内容：
-
-- Unreal Engine、Starter Content 以及 Epic 提供的其他引擎内容；
-- Cesium for Unreal 插件和 Cesium 数据服务；
-- `Content/` 中来自 Epic Marketplace、Fab、社区作者或其他来源的模型、材质、纹理、音效和地图资产；
-- 文件中明确标注了其他许可证或版权归属的内容。
-
-这些内容继续受各自原始许可证约束。
+本项目采用 [Apache License 2.0](LICENSE)。
